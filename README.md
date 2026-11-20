@@ -7,8 +7,8 @@ A dark pixel-art roguelike played with the mouse, where every click is heard.
 
 **👉 [frankshi1998-hash.github.io/AbyssClicker-releases](https://frankshi1998-hash.github.io/AbyssClicker-releases/)**
 
-电脑浏览器（Chrome / Edge / Firefox），要用鼠标；第一次加载约 110 MB。点右下角或按 F11 全屏更好。存档留在这个浏览器里。
-A desktop browser (Chrome / Edge / Firefox) and a mouse; the first load is about 110 MB. Fullscreen (F11) looks best. Your progress is saved in that browser.
+电脑浏览器（Chrome / Edge / Firefox）最好，第一次加载约 110 MB，按 F11 全屏更好。手机和平板也能玩：横过来，点一下＝点击，长按＝查看格子说明。存档留在这个浏览器里。
+Best in a desktop browser (Chrome / Edge / Firefox); the first load is about 110 MB, and fullscreen (F11) looks best. Phones and tablets work too: turn it sideways, tap to click, hold to read a tile. Your progress is saved in that browser.
 
 ## 下载最新版 / Download the latest version
 
