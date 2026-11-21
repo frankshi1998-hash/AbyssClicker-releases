@@ -1,7 +1,7 @@
 # AbyssClicker
 
-一款只用鼠标玩的暗黑像素风 Roguelike：每一次点击都会被听见。
-A dark pixel-art roguelike played with the mouse, where every click is heard.
+一款暗黑像素风 Roguelike：每一次点击都会被听见。
+A dark pixel-art roguelike where every click is heard.
 
 ## 在浏览器里直接玩 / Play in your browser
 
