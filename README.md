@@ -84,7 +84,7 @@ For a harder run, pick a level of **The Abyss Remembers** with the arrows on **c
 
 | 等级 / Level | 新规则 / The rule it adds |
 | --- | --- |
-| 1 | 深渊看得更紧：在醒着的怪旁边翻格子，声音传 2 格，噪音 +6（普通是 1 格、+3）。/ The abyss watches harder: revealing a tile beside an awake monster is heard 2 tiles away, Noise +6 (normally 1 tile, +3). |
+| 1 | 深渊看得更紧：在已经翻开的怪旁边翻格子，声音传 2 格，噪音 +6（普通是 1 格、+3）。/ The abyss watches harder: revealing a tile beside a revealed monster is heard 2 tiles away, Noise +6 (normally 1 tile, +3). |
 | 2 | 猎手倒数 2 次就出手（普通是 3 次）；噪音可以超过 100：超过 100 怪物更疼，到 150 清算者上门，它每打你一下就拿走你 10% 的金币。/ Hunters strike after 2 actions, not 3. Noise can pass 100: past it monsters hit harder, and at 150 the Reckoner comes, taking 10% of your Gold with each strike. |
 | 3 | 每一层开局就是「警觉」（噪音 25）。/ Every floor starts at Alert (Noise 25). |
 | 4 | 首领在剩四分之一生命时进入第三阶段。/ Bosses gain a third phase at a quarter of their HP. |
