@@ -77,6 +77,23 @@ The most HP (135). The Scythe slashes a line through its target, across or down,
 生命最少（85），要用 **60 道刻痕**解锁。拿什么武器都只是摆设，伤人的是歌：只伤害目标，传到的周围 1 格的怪会**着迷**（不抢先出手、反击减半）。每次没受伤的行动给 1 个音符，下一击把音符全部唱出，每个 +20%。一下挨到最大生命 15% 以上，盔甲就会裂开：音符全丢，着迷的怪醒来。技能「哼唱」给 2 个音符、让下一击传到的怪必定着迷，不算行动，最多存 5 次。**玩法：**躲开反击攒音符，打硬骨头前先哼唱，一下打出大伤害；别让大怪一下把你打裂。
 The least HP (85); unlocked with **60 marks**. Whatever it holds is only for show: it hurts with the song, which hits only its target and **entrances** the monsters a tile around (they do not strike first and strike back at half). Every action that leaves you unhurt gives a note, and your next hit sings them all, +20% each. A single blow of 15% of your Max HP cracks the armour: the notes are lost and the entranced wake. Hum gives 2 notes and makes the next attack entrance everything it reaches; it is not an action and stores up to 5 uses. **How to play:** avoid strike-backs to gather notes, hum before a tough fight and land one big blow; do not let a big monster crack you.
 
+## 难度：深渊铭记 / Difficulty: The Abyss Remembers
+
+想更难，就在**选人界面**用箭头选「深渊铭记」的等级（0～4 级，0 是普通难度）。每一级在前一级的基础上再加一条规则：
+For a harder run, pick a level of **The Abyss Remembers** with the arrows on **character select** (0 to 4; 0 is the normal game). Each level keeps the rules of the levels below and adds one:
+
+| 等级 / Level | 新规则 / The rule it adds |
+| --- | --- |
+| 1 | 深渊看得更紧：在醒着的怪旁边翻格子，声音传 2 格，噪音 +6（普通是 1 格、+3）。/ The abyss watches harder: revealing a tile beside an awake monster is heard 2 tiles away, Noise +6 (normally 1 tile, +3). |
+| 2 | 猎手倒数 2 次就出手（普通是 3 次）；噪音可以超过 100：超过 100 怪物更疼，到 150 清算者上门，它每打你一下就拿走你 10% 的金币。/ Hunters strike after 2 actions, not 3. Noise can pass 100: past it monsters hit harder, and at 150 the Reckoner comes, taking 10% of your Gold with each strike. |
+| 3 | 每一层开局就是「警觉」（噪音 25）。/ Every floor starts at Alert (Noise 25). |
+| 4 | 首领在剩四分之一生命时进入第三阶段。/ Bosses gain a third phase at a quarter of their HP. |
+
+- **怎么开启：**每个角色各自算。用某个角色在某一级赢下一局，这个角色就能选下一级。第 1 级也可以在图鉴的「成就」页用 30 道刻痕直接解锁（所有角色都能选）。
+  **Opening it:** each character climbs alone: win a run at a level to open the next one for that character. Level 1 can also be bought for 30 marks in the Codex's Achievements tab (for every character).
+- **奖励：**在深渊铭记下赢下一局，每一级多给 5 道刻痕。
+  **The reward:** a win on The Abyss Remembers gives 5 more marks for each level.
+
 ## 无尽模式：更深 / Endless: Deeper
 
 打倒第 10 层的最终首领、赢下一整局之后，结算画面会出现「继续深入」。从这里往下没有尽头：每一层开始时的噪音都更高，怪物一层比一层强，每 3 层有一个宝库，每 5 层守门人会再出现一次、而且更强。在这里死掉不算失败（这一局已经赢了），成绩按走了多深来算，深度一样再比用时，记录在图鉴的「记录」页。
@@ -84,12 +101,12 @@ Win a whole run by beating the final boss on floor 10, and the run's end offers 
 
 ## 深渊刻痕 / Marks of the descent
 
-刻痕是一直保留的货币。每一局不管输赢都会留下刻痕：每到一层 +2，打倒守门人 +5，打倒最终首领 +10，在「深渊铭记」难度下每级再加，连胜还有额外刻痕。在图鉴的「成就」页用刻痕解锁一开始锁着的东西：
-Marks are the currency that lasts. Every run, won or lost, leaves marks: +2 for each floor reached, +5 for the gatekeeper, +10 for the final boss, more for each level of The Abyss Remembers, and a bonus for a winning streak. Spend them in the Codex's Achievements tab on what starts locked:
+刻痕是一直保留的货币。每一局不管输赢都会留下刻痕：每到一层 +2，打倒守门人 +5，打倒最终首领 +10；赢下一局时，深渊铭记每一级再 +5，连胜还有额外刻痕。在图鉴的「成就」页用刻痕解锁一开始锁着的东西：
+Marks are the currency that lasts. Every run, won or lost, leaves marks: +2 for each floor reached, +5 for the gatekeeper, +10 for the final boss, and on a win +5 for each level of The Abyss Remembers and a bonus for a winning streak. Spend them in the Codex's Achievements tab on what starts locked:
 
 - **歌铠**（60 道）。/ **The Cantor** (60).
-- **深渊铭记**（30 道）：每个角色 4 级的难度阶梯，选人时选择（更凶的察觉、更快的猎手、开局就警觉、首领多一个阶段）。
-  **The Abyss Remembers** (30): a 4-level difficulty ladder for each character, chosen on character select (a harsher watch, faster hunters, floors that start alerted, bosses with a third phase).
+- **深渊铭记第 1 级**（30 道）：不用先赢一局就能选的难度（见上面的「难度」）。
+  **The Abyss Remembers, level 1** (30): the harder rules without a win first (see Difficulty above).
 - **14 件遗物**（12～40 道）：解锁之后才会出现在奖励里。
   **14 relics** (12-40 each): once unlocked they can appear among the rewards.
 
