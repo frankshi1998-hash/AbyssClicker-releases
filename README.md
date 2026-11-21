@@ -135,3 +135,7 @@ Marks buy new choices, never strength carried between runs. Achievements separat
 
 压缩包里有 `测试说明.txt` / `README_EN.md`：玩法、规则和想听的反馈都在里面。游戏记录在设置里的"打开记录文件夹"，打包发回来就是最好的反馈。
 The zip holds `测试说明.txt` / `README_EN.md` with the controls, the rules and what feedback helps. Settings → "Open Log Folder" shows your play logs: zipping that folder and sending it back is the most useful feedback of all.
+
+## 制作人 / Made by
+
+**SulyTea** · 联系方式 / Contact: frankshi1998@gmail.com · B站 / Bilibili: https://space.bilibili.com/1324888
