@@ -121,6 +121,23 @@ Marks buy new choices, never strength carried between runs. Achievements separat
   **A run** is saved at the start of each floor: "Continue" on the title picks it up, and the pause menu has "Save & Quit". Quit halfway through a floor and you come back to that floor as you found it.
 - **更新版本**：从 v0.7.5 起，新版本会保留你的进度，只丢掉旧版本里没打完的那一局（规则可能变了）。v0.7.4 及更早的版本每次更新都会清空存档。
   **New versions:** from v0.7.5 on, a new version keeps your progress and drops only a run you had not finished (its rules may have changed). Up to v0.7.4 every new version cleared the saves.
+
+### 换新版本时怎么保留存档 / Keeping your save when you update
+
+进度不在游戏文件夹里，所以换版本不用复制任何文件：
+Your progress is not kept in the game's folder, so updating needs no files copied:
+
+1. 想保留正在打的那一局，先在旧版本里打完它（新版本第一次打开会丢掉没打完的一局）。
+   To keep a run in progress, finish it in the old version first (a new version's first launch drops an unfinished run).
+2. **Windows**：下载新版本的压缩包，解压到任意文件夹（新文件夹或覆盖旧的都行），双击新的 `AbyssClicker.exe`。解锁、刻痕、成就、记录、设置都会自动出现。旧版本的文件夹可以直接删掉。
+   **Windows:** download the new zip, unzip it anywhere (a new folder or over the old one), and run the new `AbyssClicker.exe`. Your unlocks, marks, achievements, records and settings are there. The old folder can be deleted.
+3. **Mac**：用新的 `AbyssClicker.app` 替换旧的（第一次打开同样要右键「打开」，见 `Mac_先读我.txt`），进度会自动读出来。
+   **Mac:** replace the old `AbyssClicker.app` with the new one (open it the first time with right-click → Open, see `Mac_先读我.txt`); your progress is read automatically.
+4. **浏览器**：用同一个浏览器打开同一个网址就是新版本，进度还在。如果看到的还是旧版本，按 Ctrl+F5（Mac 上 Cmd+Shift+R）强制刷新。
+   **Browser:** open the same address in the same browser; the new version keeps your progress. If the old version still shows, force a refresh with Ctrl+F5 (Cmd+Shift+R on a Mac).
+
+不要做的事：不要点设置里的「重置进度」，也不要删除下面「存在哪里」列出的位置，那样进度才会真的没了。换电脑的话，进度不会跟过去。
+Don't: press "Reset Progress" in Settings, or delete the places listed under "Where it lives" below; those really erase it. Progress does not move to another computer.
 - 设置里的「重置进度」会清空全部进度，从头开始。
   "Reset Progress" in Settings clears it all and starts over.
 - 存在哪里 / Where it lives:
