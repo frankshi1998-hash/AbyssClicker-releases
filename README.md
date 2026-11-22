@@ -96,8 +96,13 @@ For a harder run, pick a level of **The Abyss Remembers** with the arrows on **c
 
 ## 无尽模式：更深 / Endless: Deeper
 
-打倒第 10 层的最终首领、赢下一整局之后，结算画面会出现「继续深入」。从这里往下没有尽头：每一层开始时的噪音都更高，怪物一层比一层强，每 3 层有一个宝库，每 5 层守门人会再出现一次、而且更强。在这里死掉不算失败（这一局已经赢了），成绩按走了多深来算，深度一样再比用时，记录在图鉴的「记录」页。
-Win a whole run by beating the final boss on floor 10, and the run's end offers "Go Deeper": an endless descent. Each floor starts louder than the last, the monsters keep growing, every third floor is a vault, and every fifth the gatekeeper returns, stronger. Dying down there is not a defeat (the run is already won): the score is how deep you went, then the time, kept in the Codex's Records tab.
+打倒第 10 层的最终首领、赢下一整局之后，结算画面会出现「继续深入」。从这里往下没有尽头：每一层开始时的噪音都更高，怪物一层比一层强，每 3 层有一个宝库，每 5 层会有一个首领挡住楼梯：从回声骑士、守钥人、噬声者、什一圣徒四个里随机出，越深越强。在这里死掉不算失败（这一局已经赢了），每个角色最深到过第几层、用了多久，记在图鉴的「记录」页。
+Win a whole run by beating the final boss on floor 10, and the run's end offers "Go Deeper": an endless descent. Each floor starts louder than the last, the monsters keep growing, every third floor is a vault, and every fifth a boss guards the stairs: one of the four (the Echo Knight, the Keywarden, the Noise Eater, the Tithe-Saint), stronger the deeper you go. Dying down there is not a defeat (the run is already won); each character's deepest floor and its time are kept in the Codex's Records tab.
+
+### 分数 / Score
+
+每局结束都会算分：走得多深、打倒了什么（精英、守关首领、最终首领）、通关、最长连锁、拿到的金币都算分；「更深」每一层比上面的楼层分数高得多；深渊铭记每高一级，总分再乘 1.25。结算界面显示这局的分数和在本机的名次，图鉴的「记录」页列出本机前 10 名和用的角色。
+Every run scores: how deep you went, what you beat (elites, gatekeepers, the final boss), a win, your best chain and the Gold you found; each Deeper floor is worth far more than one above, and each level of The Abyss Remembers multiplies the total by 1.25. The run end shows the score and its place on this computer; the Codex's Records tab lists the best 10 with their characters.
 
 ## 深渊刻痕 / Marks of the descent
 
