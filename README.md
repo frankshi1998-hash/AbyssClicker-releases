@@ -41,8 +41,8 @@ A run is 10 floors, each a 7×7 board. Floor 5 holds a gatekeeper (the Echo Knig
   **Left-click a monster** to attack. Hover first to see the damage, what dies and who strikes back.
 - **右键点怪物**：看它的卡片和规则。
   **Right-click a monster** for its card and its rule.
-- **噪音**：攻击会出声，声音会在地图上传开，把怪物引过来、惊醒它们。噪音越高，怪物越疼；到 100，收账人会来收账。安静地离开一层，回复的生命最多。
-  **Noise:** attacks are heard; the sound spreads over the board, drawing monsters out and waking them. The louder the floor, the harder they hit; at 100 the Tollkeeper comes to collect. A quiet exit heals the most.
+- **噪音**：攻击会发出声音，声音在地图上一格一格传开，传到的怪物会被引出来或察觉你。每层的噪音从 0 开始，分四级：平静（0～24）、警觉（25～49）、搜捕（50～74）、惊动（75～100），怪物造成的伤害分别 +0%、+10%、+20%、+30%。噪音到 100 时收账人出现。下楼时按离开时的噪音等级回复生命：平静 30%、警觉 20%、更高 10%（按最大生命计算）。
+  **Noise:** attacks make sound; it spreads over the board tile by tile, and the monsters it reaches come out or notice you. Each floor starts at 0 Noise, in four tiers: Calm (0-24), Alert (25-49), Hunted (50-74), Roused (75-100); monsters deal +0%, +10%, +20% and +30% damage at each. At 100 the Tollkeeper comes. Taking the stairs heals you by the tier you leave at: 30% of your Max HP when Calm, 20% when Alert, 10% above that.
 - **连锁**：每次击杀都是一环，每环让伤害和击杀金币 +10%；一次行动什么都没杀死，连锁就断。
   **The chain:** every kill is a link, each +10% damage and kill Gold; an action that kills nothing breaks it.
 - **成长**：击杀给经验，下楼时升级，每次升级在角色的三条路线里选一步。遗物来自精英、商人和事件，会改变规则。
@@ -52,30 +52,30 @@ A run is 10 floors, each a 7×7 board. Floor 5 holds a gatekeeper (the Echo Knig
 
 | 角色 / Character | 武器 / Weapon | 被动 / Passive | 技能 / Skill |
 | --- | --- | --- | --- |
-| **背誓骑士** Oathbroken Knight | 镰刀：一刀斩过一整条线 / Scythe: slashes a line | 负伤之怒：越受伤越疼 / Wounded Fury | 最后的誓言 / Last Oath |
-| **盗墓贼** Grave Robber | 刺剑：无声，单体 / Rapier: silent, single | 独猎者：打落单的怪 +40% / Lone Hunter | 暗影突袭 / Shadow Strike |
-| **聆听修女** Listening Nun | 香炉提灯：安静的小范围 / Censer Lantern | 渐强圣咏：越吵越强 / Rising Hymn | 安魂钟 / Requiem Bell |
-| **歌铠** Cantor | 装模作样：伤人的是歌 / All for Show | 空壳：音符与裂甲 / Hollow | 哼唱 / Hum |
+| **背誓骑士** Oathbroken Knight | 镰刀：攻击目标和它左右各 1 格，或上下各 1 格 / Scythe: hits the target and the tile on each side of it, across or down | 负伤之怒：每损失 2% 最大生命，伤害 +1%（最多 +50%）/ Wounded Fury: +1% damage per 2% of Max HP missing (up to +50%) | 最后的誓言 / Last Oath |
+| **盗墓贼** Grave Robber | 刺剑：不发出声音，只打目标 / Rapier: silent, hits the target only | 独猎者：目标周围 8 格没有其他怪 +40%，只有 1 只 +20% / Lone Hunter: +40% with no other monster in the 8 tiles around the target, +20% with one | 暗影突袭 / Shadow Strike |
+| **聆听修女** Listening Nun | 香炉提灯：目标周围 8 格的怪受到 10% 伤害，只有目标反击 / Censer Lantern: the monsters in the 8 tiles around take 10%; only the target strikes back | 渐强圣咏：噪音每高一级，伤害 +12% / Rising Hymn: +12% damage for each Noise tier | 安魂钟 / Requiem Bell |
+| **歌铠** Cantor | 装模作样：只伤害目标，周围 1 格的怪着迷 / All for Show: hurts the target only, entrances the monsters 1 tile around | 空壳：音符每个 +20% 伤害；一次受到最大生命 15% 以上的伤害会裂开 / Hollow: each note +20% damage; a single hit of 15% of Max HP or more cracks the armour | 哼唱 / Hum |
 
 ### 背誓骑士 / Oathbroken Knight
 *曾立誓封印深渊，却以失败告终。 / Swore to seal the Abyss and failed.*
-生命最多（135）。镰刀沿着横线或竖线斩过目标，哪边怪多斩哪边；被一起斩到的怪以一半伤害反击。每损失 2% 生命，伤害 +1%（最多 +50%）。技能「最后的誓言」恢复 20% 生命，接下来 4 次行动受到的伤害减半，受伤时充能。**玩法：**把怪引成一排一刀斩完，残血时打得最狠，靠誓言撑过去。
-The most HP (135). The Scythe slashes a line through its target, across or down, wherever more monsters stand; the others it catches strike back at half. +1% damage for every 2% HP missing (up to +50%). Last Oath heals 20% and halves every hit for 4 actions; it charges when you are hurt. **How to play:** line them up and cut them down; you hit hardest when hurt, and the oath carries you through.
+生命最多（135）。镰刀攻击目标和它左右各 1 格，或上下各 1 格，哪个方向的怪多就打哪个方向（一样多时打左右）；目标以外被打到的怪以一半伤害反击。每损失最大生命的 2%，伤害 +1%（最多 +50%，即生命为 0 时）。技能「最后的誓言」恢复最大生命的 20%，并让接下来 4 次行动中受到的每次伤害减半；主要靠受到伤害充能，攻击、击杀和发现怪物也会充一点。**玩法：**用声音把怪物引到目标的左右或上下相邻格，一次攻击打到 3 只；生命越低，负伤之怒的加成越高，在危险时用「最后的誓言」回血并减伤。
+The most HP (135). The Scythe hits the target and the tile on each side of it, across or down, whichever holds more monsters (across on a tie); the others it hits strike back at half. +1% damage for every 2% of Max HP missing (up to +50%). Last Oath heals 20% of your Max HP and halves every hit you take for your next 4 actions; it charges mostly from damage you take, a little from attacks, kills and monsters found. **How to play:** draw monsters beside your target, across or down, with sound so one attack hits three; the lower your HP, the larger Wounded Fury's bonus; use Last Oath to heal and halve the damage when a fight turns dangerous.
 
 ### 盗墓贼 / Grave Robber
 *出身贵族的千金小姐，私底下的爱好却是盗墓。 / A noble heiress whose secret hobby is robbing tombs.*
-生命 105，暴击率最高。刺剑不出声，只打一只。打身边没有其他怪的怪 +40%，身边只有一只时 +20%。技能「暗影突袭」让接下来 3 次攻击必定暴击、不会被反击，靠翻格子、开宝箱和打落单的怪充能。**玩法：**安静地翻图，把怪一只只挑出来打，噪音压得低低的。
-105 HP and the highest crit chance. The Rapier is silent and hits one monster. +40% damage to a monster standing alone, +20% with one beside it. Shadow Strike makes your next 3 attacks crit with no strike-back; it charges from revealing tiles, opening chests and striking a lone monster. **How to play:** explore quietly, pick them off one at a time, keep the Noise low.
+生命 105，暴击率 15%（其他角色 10%）。刺剑攻击不发出声音，只打目标一只。目标周围 8 格没有其他怪物时伤害 +40%，只有 1 只时 +20%（召唤出来的怪不算）。技能「暗影突袭」让接下来 3 次攻击必定暴击，被攻击的怪不会反击；靠翻开格子、打开宝箱和攻击落单的怪充能。**玩法：**翻格子和攻击都不发出声音（在已翻开的怪旁边翻格子除外），噪音容易保持在平静；先打周围没有同伴的怪，拿到独猎者的 +40%。
+105 HP and a 15% crit chance (the others have 10%). The Rapier makes no sound and hits its target only. +40% damage when no other monster stands in the 8 tiles around the target, +20% with one (summoned monsters do not count). Shadow Strike makes your next 3 attacks crit, and the monsters you hit do not strike back; it charges from revealing tiles, opening chests and striking a lone monster. **How to play:** neither revealing (except beside a revealed monster) nor your attacks make sound, so the floor stays Calm easily; strike monsters with no others around them for Lone Hunter's +40%.
 
 ### 聆听修女 / Listening Nun
 *听见了深渊的呼唤，并想查明它在呼唤何人。 / Hears the Abyss calling, and wants to know whom.*
-生命 125。香炉提灯很安静，能带到身边的怪（10%），只有目标会反击。噪音每升一级（警觉、搜捕、惊动），伤害 +12%。技能「安魂钟」对所有翻开的怪造成攻击力 80% 的伤害、不会被反击，没死的会眩晕；它算一次行动，靠你发出的噪音充能。**玩法：**故意把楼层弄吵，等怪聚过来，敲钟一起收掉，但别吵到收账人上门。
-125 HP. The Censer Lantern is quiet and grazes the monsters beside its target (10%); only the target strikes back. +12% damage for each Noise tier (Alert, Hunted, Roused). Requiem Bell hits every revealed monster for 80% of your Attack with no strike-back and dazes the survivors; it is an action and charges from the Noise you make. **How to play:** make the floor loud on purpose, let them gather, ring the bell, but not so loud that the Tollkeeper comes.
+生命 125。香炉提灯攻击时，目标周围 8 格的怪也受到 10% 的伤害，但只有目标会反击。噪音每高一级（警觉、搜捕、惊动），伤害 +12%（最多 +36%）。技能「安魂钟」对所有已翻开的怪造成你攻击力 80% 的伤害，它们不会反击，没被打死的陷入眩晕（跳过下一次反击）；它算一次行动，噪音每上升 1 点充能 3%，一次最多 15%。**玩法：**噪音越高，渐强圣咏的加成越高，安魂钟也充得越快；声音会把怪引到一起，再用安魂钟一次打到所有翻开的怪。噪音到 100 收账人会出现，要在那之前离开或打完。
+125 HP. When the Censer Lantern attacks, the monsters in the 8 tiles around the target take 10% of the damage too, but only the target strikes back. +12% damage for each Noise tier (Alert, Hunted, Roused; up to +36%). Requiem Bell hits every revealed monster for 80% of your Attack; they do not strike back, and the survivors are dazed (they skip their next strike-back); it is an action and charges 3% for each point of Noise, at most 15% at once. **How to play:** the higher the Noise, the larger Rising Hymn's bonus and the faster the bell charges; sound draws monsters together, and the bell then hits every revealed one at once. At 100 Noise the Tollkeeper comes, so leave or finish before then.
 
 ### 歌铠 / Cantor（v0.7.5 新角色 / new in v0.7.5）
 *一具会歌唱的盔甲，但是为什么会在这？ / An armour that sings. But why is it here?*
-生命最少（85），要用 **60 道刻痕**解锁。拿什么武器都只是摆设，伤人的是歌：只伤害目标，传到的周围 1 格的怪会**着迷**（不抢先出手、反击减半）。每次没受伤的行动给 1 个音符，下一击把音符全部唱出，每个 +20%。一下挨到最大生命 15% 以上，盔甲就会裂开：音符全丢，着迷的怪醒来。技能「哼唱」给 2 个音符、让下一击传到的怪必定着迷，不算行动，最多存 5 次。**玩法：**躲开反击攒音符，打硬骨头前先哼唱，一下打出大伤害；别让大怪一下把你打裂。
-The least HP (85); unlocked with **60 marks**. Whatever it holds is only for show: it hurts with the song, which hits only its target and **entrances** the monsters a tile around (they do not strike first and strike back at half). Every action that leaves you unhurt gives a note, and your next hit sings them all, +20% each. A single blow of 15% of your Max HP cracks the armour: the notes are lost and the entranced wake. Hum gives 2 notes and makes the next attack entrance everything it reaches; it is not an action and stores up to 5 uses. **How to play:** avoid strike-backs to gather notes, hum before a tough fight and land one big blow; do not let a big monster crack you.
+生命最少（85），要用 **60 道刻痕**解锁。武器只是摆设（「装模作样」），伤害来自歌：只伤害目标，目标周围 1 格的怪不受伤害，但会**着迷**：不会抢先出手，反击伤害减半；它反击之后会醒来，直到你下一次攻击才会再着迷。每次没有受到伤害的行动给 1 个音符（最多 5 个）；下一次造成伤害的攻击唱出全部音符，每个 +20% 伤害（5 个即 +100%）。一次受到最大生命 15% 以上的伤害，盔甲裂开：噪音 +5，音符全部丢失，着迷的怪醒来并察觉你。技能「哼唱」给 2 个音符，并让下一次攻击传到的怪必定着迷；不算行动，最多存 5 次。**玩法：**攒满 5 个音符再攻击生命高的怪（+100% 伤害）；攻击会反击的怪之前先用哼唱让它着迷，它的反击伤害减半，你就更不容易因为一次受到 15% 以上的伤害而裂开。
+The least HP (85); unlocked with **60 marks**. The weapon is only for show ("All for Show"); the damage comes from the song, which hurts only its target and **entrances** the monsters 1 tile around without hurting them: an entranced monster does not strike first and strikes back at half; striking back wakes it until your next attack. Every action in which you take no damage gives a note (up to 5); your next damaging attack sings them all, +20% damage each (+100% with 5). A single hit of 15% of your Max HP or more cracks the armour: Noise +5, all notes are lost, and the entranced wake and notice you. Hum gives 2 notes and makes your next attack entrance everything it reaches; it is not an action and stores up to 5 uses. **How to play:** gather all 5 notes before attacking a monster with high HP (+100% damage); hum before attacking a monster that will strike back, so it is entranced and strikes back at half, which keeps a single hit below the 15% that cracks you.
 
 ## 难度：深渊铭记 / Difficulty: The Abyss Remembers
 
@@ -85,7 +85,7 @@ For a harder run, pick a level of **The Abyss Remembers** with the arrows on **c
 | 等级 / Level | 新规则 / The rule it adds |
 | --- | --- |
 | 1 | 深渊看得更紧：在已经翻开的怪旁边翻格子，声音传 2 格，噪音 +6（普通是 1 格、+3）。/ The abyss watches harder: revealing a tile beside a revealed monster is heard 2 tiles away, Noise +6 (normally 1 tile, +3). |
-| 2 | 猎手倒数 2 次就出手（普通是 3 次）；噪音可以超过 100：超过 100 怪物更疼，到 150 清算者上门，它每打你一下就拿走你 10% 的金币。/ Hunters strike after 2 actions, not 3. Noise can pass 100: past it monsters hit harder, and at 150 the Reckoner comes, taking 10% of your Gold with each strike. |
+| 2 | 猎手倒数 2 次行动就攻击（普通是 3 次）；噪音可以超过 100：超过 100 是「暴露」，怪物造成的伤害 +40%；到 150 清算者出现，它每次攻击命中你，拿走你 10% 的金币。/ Hunters strike after 2 actions, not 3. Noise can pass 100: past it the floor is Exposed and monsters deal +40% damage; at 150 the Reckoner comes, and each of its hits takes 10% of your Gold. |
 | 3 | 每一层开局就是「警觉」（噪音 25）。/ Every floor starts at Alert (Noise 25). |
 | 4 | 首领在剩四分之一生命时进入第三阶段。/ Bosses gain a third phase at a quarter of their HP. |
 
