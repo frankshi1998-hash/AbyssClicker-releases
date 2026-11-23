@@ -21,6 +21,7 @@ Pick your system under Assets at the bottom of the page:
 | --- | --- |
 | `AbyssClicker_v…_2026-…zip` | Windows 10/11 (64-bit) |
 | `AbyssClicker_v…_mac_…zip` | macOS 12+ (Intel 和 Apple 芯片 / Intel and Apple silicon) |
+| `AbyssClicker_v…_android.apk` | 安卓 / Android 7+ (64-bit) |
 
 ## 怎么运行 / How to run
 
@@ -29,6 +30,9 @@ Pick your system under Assets at the bottom of the page:
 
 **Mac：** 解压后先读 `Mac_先读我.txt`。第一次打开要右键 `AbyssClicker.app` → 打开 → 再点打开；还是打不开就在终端运行 `xattr -cr AbyssClicker.app`。
 **Mac:** read `Mac_先读我.txt` first. The first time, right-click `AbyssClicker.app` → Open → Open. If it still refuses, run `xattr -cr AbyssClicker.app` in Terminal.
+
+**安卓：** 在手机上下载 apk 并点开。第一次会提示"未知来源"，允许这个浏览器（或文件管理器）安装应用即可。竖着、横着都能玩：点一下＝点击，按住＝查看卡片，返回键＝暂停菜单。更新时直接安装新的 apk，进度会保留。
+**Android:** download the apk on the phone and open it. The first time, allow your browser (or file manager) to install apps. Play upright or sideways: tap to click, hold for a card, back for the pause menu. To update, install the new apk over the old one; your progress stays.
 
 ## 怎么玩 / How to play
 
