@@ -47,6 +47,8 @@ A run is 10 floors, each a 7×7 board. Floor 5 holds a gatekeeper (the Echo Knig
   **The chain:** every kill is a link, each +10% damage and kill Gold; an action that kills nothing breaks it.
 - **成长**：击杀给经验，下楼时升级，每次升级在角色的三条路线里选一步。遗物来自精英、商人和事件，会改变规则。
   **Growth:** kills give experience; you level up on the stairs and take a step on one of your character's three routes. Relics come from elites, merchants and events, and change the rules.
+- **事件小游戏**（v0.7.8）：有五个事件要你亲手玩，在事件面板上直接进行：骷髅牌局（一手德州）、深渊拍卖（和影子竞价）、赌徒之魂（翻倍还是收手）、诅咒骰子（掷几颗由你定）、两张面具（看清它们换位）。
+  **Event mini-games** (v0.7.8): five events are played on their panel: the Skeletons' Table (a hand of hold'em), the Abyssal Auction (bid against a shadow), the Gambler's Ghost (double or stop), Cursed Dice (how many dice is up to you), the Two Masks (follow them as they change places).
 
 ## 四个角色 / The four characters
 
