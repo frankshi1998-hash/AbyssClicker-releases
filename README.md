@@ -23,6 +23,38 @@ Pick your system under Assets at the bottom of the page:
 | `AbyssClicker_v…_mac_…zip` | macOS 12+ (Intel 和 Apple 芯片 / Intel and Apple silicon) |
 | `AbyssClicker_v…_android.apk` | 安卓 / Android 7+ (64-bit) |
 
+## 深渊导演 DLC（Windows 试玩版）/ The Abyss Director DLC (Windows preview)
+
+**👉 [Releases → v0.8.0（预发布 / pre-release）](https://github.com/frankshi1998-hash/AbyssClicker-releases/releases/tag/v0.8.0)**
+
+通关之后的「更深」（无尽模式）换一种玩法：每一层由一个残缺、被污染的**巫术智能单元**规划。它在为早已不在的学派挖安全屋，把闯进来的你当成敌人。
+After a won run, Deeper (the endless mode) plays differently: each floor is planned by a broken, corrupted **Arcane Intelligence Unit**, still digging a safe house for long-gone schools, and treating you as the enemy.
+
+- **有名字的楼层和成形的阵型**：哨兵线、钟楼、伏击圈、献祭圈……柱子和水在怪物露面之前就勾出阵型的轮廓。
+  **Named floors and formations:** sentinel lines, bell towers, ambushes, ritual circles; pillars and water outline them before the monsters show.
+- **碎片和觉察**：每 5 层能找到一块它的日志碎片，拿得越多，它越清楚你在哪：阵型越整齐，猎手越多，还会出现一进门全部翻开、摆好阵的**军队层**。
+  **Fragments and awareness:** a fragment of its log every 5 floors; the more you take, the more it knows you: tighter formations, more hunters, and **army floors** laid open and in formation on arrival.
+- **指令**：它会改写规则、封存你的技能和药剂、污染你的遗物、按你过去的死法派出针对你的精英。打死带着指令的「中继」就能解除。
+  **Directives:** it rewrites rules, seals your skill and potions, corrupts a relic, and sends an elite built from how you died before. Kill the relay that carries one to break it.
+- **核心**：集齐 4 块碎片可以走进它的核心：三层外壳，一层比一层怪。打倒它之后，下面是**失控楼层**，每层双倍计分。
+  **The core:** with all four fragments you can walk into its core, three shells, each stranger than the last. After it fall the **uncontrolled floors**, each scoring double.
+- **可选的本地 AI**：放一个 Qwen3 模型进去，楼层的名字和它的日志就由在你电脑上运行的模型来写，不联网。
+  **An optional local AI:** add a Qwen3 model and the floors' names and its log are written by a model running on your computer, offline.
+
+**安装 / Install：**
+
+1. 下载 v0.8.0 的两个文件：游戏 `AbyssClicker_v0.8.0_…zip` 和 DLC `AbyssDirector_v0.8.0_win_…zip`。DLC 需要 v0.8.0 的游戏。
+   Download both v0.8.0 files: the game `AbyssClicker_v0.8.0_…zip` and the DLC `AbyssDirector_v0.8.0_win_…zip`. The DLC needs the v0.8.0 game.
+2. 解压游戏，再把 DLC 解压到游戏文件夹里，让 `AbyssDirector` 文件夹和 `AbyssClicker.exe` 放在一起。
+   Unzip the game, then unzip the DLC into the game's folder, so the `AbyssDirector` folder sits beside `AbyssClicker.exe`.
+3. 打通一局（第 10 层）后，结算面板上会出现「更深·导演」。
+   After a won run (floor 10), the run-end panel shows "Deeper: Director".
+4. 想用本地模型：按 `AbyssDirector` 文件夹里的说明下载 Qwen3（8B 约 5 GB，显卡弱用 4B），放进 `AbyssDirector\models\`，再在设置里打开「导演模型」。不放模型也能玩。
+   For the local model: follow the readme in the `AbyssDirector` folder to download Qwen3 (8B is about 5 GB; 4B for a weaker GPU) into `AbyssDirector\models\`, then turn on "Director Model" in Settings. It plays without one too.
+
+核心里会出现「深渊.exe 已停止响应」：这是游戏的一部分，按「调试」继续，游戏不会真的关闭。设置里的「Meta 效果：温和」会把单元的这些把戏写明白，也不闪烁。删掉 `AbyssDirector` 文件夹就是卸载。
+In the core you will see "Abyss.exe has stopped responding": it is part of the game; press Debug to go on, the game never really closes. "Meta Effects: Gentle" in Settings says plainly that these are the unit's tricks, and nothing flickers. Deleting the `AbyssDirector` folder uninstalls it.
+
 ## 怎么运行 / How to run
 
 **Windows：** 解压，双击 `AbyssClicker.exe`。如果 Windows 提示"已保护你的电脑"，点"更多信息"→"仍要运行"（游戏没有付费签名）。
