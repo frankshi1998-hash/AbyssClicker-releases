@@ -7,8 +7,8 @@ A dark pixel-art roguelike where every click is heard.
 
 **👉 [frankshi1998-hash.github.io/AbyssClicker-releases](https://frankshi1998-hash.github.io/AbyssClicker-releases/)**
 
-电脑浏览器（Chrome / Edge / Firefox）最好，第一次加载约 110 MB，按 F11 全屏更好。手机和平板也能玩：横过来，点一下＝点击，长按＝查看格子说明。存档留在这个浏览器里。
-Best in a desktop browser (Chrome / Edge / Firefox); the first load is about 110 MB, and fullscreen (F11) looks best. Phones and tablets work too: turn it sideways, tap to click, hold to read a tile. Your progress is saved in that browser.
+电脑浏览器（Chrome / Edge / Firefox）最好，第一次加载约 85 MB，按 F11 全屏更好。手机和平板也能玩：横过来，点一下＝点击，长按＝查看格子说明。存档留在这个浏览器里。
+Best in a desktop browser (Chrome / Edge / Firefox); the first load is about 85 MB, and fullscreen (F11) looks best. Phones and tablets work too: turn it sideways, tap to click, hold to read a tile. Your progress is saved in that browser.
 
 ## 下载最新版 / Download the latest version
 
@@ -25,7 +25,7 @@ Pick your system under Assets at the bottom of the page:
 
 ## 深渊导演 DLC（Windows 试玩版）/ The Abyss Director DLC (Windows preview)
 
-**👉 [Releases → v0.8.0（预发布 / pre-release）](https://github.com/frankshi1998-hash/AbyssClicker-releases/releases/tag/v0.8.0)**
+**👉 [Releases → Latest](https://github.com/frankshi1998-hash/AbyssClicker-releases/releases/latest)**（和游戏在同一个版本里 / in the same release as the game）
 
 通关之后的「更深」（无尽模式）换一种玩法：每一层由一个残缺、被污染的**巫术智能单元**规划。它在为早已不在的学派挖安全屋，把闯进来的你当成敌人。
 After a won run, Deeper (the endless mode) plays differently: each floor is planned by a broken, corrupted **Arcane Intelligence Unit**, still digging a safe house for long-gone schools, and treating you as the enemy.
@@ -38,19 +38,21 @@ After a won run, Deeper (the endless mode) plays differently: each floor is plan
   **Directives:** it rewrites rules, seals your skill and potions, corrupts a relic, and sends an elite built from how you died before. Kill the relay that carries one to break it.
 - **核心**：集齐 4 块碎片可以走进它的核心：三层外壳，一层比一层怪。打倒它之后，下面是**失控楼层**，每层双倍计分。
   **The core:** with all four fragments you can walk into its core, three shells, each stranger than the last. After it fall the **uncontrolled floors**, each scoring double.
-- **可选的本地 AI**：放一个 Qwen3 模型进去，楼层的名字和它的日志就由在你电脑上运行的模型来写，不联网。
-  **An optional local AI:** add a Qwen3 model and the floors' names and its log are written by a model running on your computer, offline.
+- **巫术2000 终端**（v0.8.1）：在碎片、核心和楼层之间安静的时候，可以给单元输入命令、出示你读到的学派凭据。没有模型时是三个预写好的选项。
+  **The Witchcraft 2000 terminal** (v0.8.1): in the quiet moments by a fragment, the core and between floors, type orders to the unit or show it the schools' credentials you have read. Without a model it offers three written choices.
+- **可选的本地 AI**：放一个 Qwen3-8B 模型进去，楼层的名字、它的日志和终端的回答就由在你电脑上运行的模型来写，不联网。
+  **An optional local AI:** add a Qwen3-8B model and the floors' names, its log and the terminal's replies are written by a model running on your computer, offline.
 
 **安装 / Install：**
 
-1. 下载 v0.8.0 的两个文件：游戏 `AbyssClicker_v0.8.0_…zip` 和 DLC `AbyssDirector_v0.8.0_win_…zip`。DLC 需要 v0.8.0 的游戏。
-   Download both v0.8.0 files: the game `AbyssClicker_v0.8.0_…zip` and the DLC `AbyssDirector_v0.8.0_win_…zip`. The DLC needs the v0.8.0 game.
+1. 在最新版里下载两个文件：Windows 版游戏 `AbyssClicker_v…_2026-…zip` 和 DLC `AbyssDirector_v…_win_…zip`（两个版本号要一样）。
+   From the latest release download two files: the Windows game `AbyssClicker_v…_2026-…zip` and the DLC `AbyssDirector_v…_win_…zip` (the same version number).
 2. 解压游戏，再把 DLC 解压到游戏文件夹里，让 `AbyssDirector` 文件夹和 `AbyssClicker.exe` 放在一起。
    Unzip the game, then unzip the DLC into the game's folder, so the `AbyssDirector` folder sits beside `AbyssClicker.exe`.
 3. 打通一局（第 10 层）后，结算面板上会出现「更深·导演」。
    After a won run (floor 10), the run-end panel shows "Deeper: Director".
-4. 想用本地模型：按 `AbyssDirector` 文件夹里的说明下载 Qwen3（8B 约 5 GB，显卡弱用 4B），放进 `AbyssDirector\models\`，再在设置里打开「导演模型」。不放模型也能玩。
-   For the local model: follow the readme in the `AbyssDirector` folder to download Qwen3 (8B is about 5 GB; 4B for a weaker GPU) into `AbyssDirector\models\`, then turn on "Director Model" in Settings. It plays without one too.
+4. 想用本地模型：按 `AbyssDirector` 文件夹里的说明下载 Qwen3-8B（约 5 GB），放进 `AbyssDirector\models\`，再在设置里打开「导演模型」。不放模型也能玩。
+   For the local model: follow the readme in the `AbyssDirector` folder to download Qwen3-8B (about 5 GB) into `AbyssDirector\models\`, then turn on "Director Model" in Settings. It plays without one too.
 
 核心里会出现「深渊.exe 已停止响应」：这是游戏的一部分，按「调试」继续，游戏不会真的关闭。设置里的「Meta 效果：温和」会把单元的这些把戏写明白，也不闪烁。删掉 `AbyssDirector` 文件夹就是卸载。
 In the core you will see "Abyss.exe has stopped responding": it is part of the game; press Debug to go on, the game never really closes. "Meta Effects: Gentle" in Settings says plainly that these are the unit's tricks, and nothing flickers. Deleting the `AbyssDirector` folder uninstalls it.
@@ -68,8 +70,8 @@ In the core you will see "Abyss.exe has stopped responding": it is part of the g
 
 ## 怎么玩 / How to play
 
-一局是 10 层，每层是一张 7×7 的格子地图。第 5 层有守门人（回声骑士或守钥人），第 10 层是最终首领（噬声者或什一圣徒）。第一次玩会先打一层教学关。
-A run is 10 floors, each a 7×7 board. Floor 5 holds a gatekeeper (the Echo Knight or the Keywarden), floor 10 the final boss (the Noise Eater or the Tithe-Saint). Your first time starts with a tutorial floor.
+一局是 10 层，每层是一张 7×7 的格子地图。第 5 层有守门人（回声骑士或什一圣徒），第 10 层是最终首领（噬声者或守钥人）。第一次玩会先打一层教学关。
+A run is 10 floors, each a 7×7 board. Floor 5 holds a gatekeeper (the Echo Knight or the Tithe-Saint), floor 10 the final boss (the Noise Eater or the Keywarden). Your first time starts with a tutorial floor.
 
 - **左键点没翻开的格子**：翻开它。不出声，但算一次行动，怪物会跟着行动。
   **Left-click a hidden tile** to reveal it. It is quiet, but it is an action: the monsters act after it.
@@ -122,10 +124,10 @@ For a harder run, pick a level of **The Abyss Remembers** with the arrows on **c
 
 | 等级 / Level | 新规则 / The rule it adds |
 | --- | --- |
-| 1 | 深渊看得更紧：在已经翻开的怪旁边翻格子，声音传 2 格，噪音 +6（普通是 1 格、+3）。/ The abyss watches harder: revealing a tile beside a revealed monster is heard 2 tiles away, Noise +6 (normally 1 tile, +3). |
-| 2 | 猎手倒数 2 次行动就攻击（普通是 3 次）；噪音可以超过 100：超过 100 是「暴露」，怪物造成的伤害 +40%；到 150 清算者出现，它每次攻击命中你，拿走你 10% 的金币。/ Hunters strike after 2 actions, not 3. Noise can pass 100: past it the floor is Exposed and monsters deal +40% damage; at 150 the Reckoner comes, and each of its hits takes 10% of your Gold. |
-| 3 | 每一层开局就是「警觉」（噪音 25）。/ Every floor starts at Alert (Noise 25). |
-| 4 | 首领在剩四分之一生命时进入第三阶段。/ Bosses gain a third phase at a quarter of their HP. |
+| 1 | 深渊看得更紧：在已经翻开的怪旁边翻格子，声音传 2 格，噪音 +6（普通是 1 格、+3）。回报：击杀金币每级 +15%，每层多一个宝箱。/ The abyss watches harder: revealing a tile beside a revealed monster is heard 2 tiles away, Noise +6 (normally 1 tile, +3). In return: +15% kill Gold a level, one more chest a floor. |
+| 2 | 猎手倒数 2 次行动就攻击（普通是 3 次）；噪音可以超过 100：超过 100 是「暴露」，怪物造成的伤害 +40%；到 150 清算者出现，它每次攻击命中你，拿走你 10% 的金币。回报：每层多一个火药桶或古钟。/ Hunters strike after 2 actions, not 3. Noise can pass 100: past it the floor is Exposed and monsters deal +40% damage; at 150 the Reckoner comes, and each of its hits takes 10% of your Gold. In return: one more Powder Keg or Old Bell a floor. |
+| 3 | 每一层开局就是「警觉」（噪音 25），第 4 层起精英至少 2 个词缀。回报：打倒守门人多 1 次重掷。/ Every floor starts at Alert (Noise 25), and from floor 4 elites carry 2 affixes or more. In return: the gatekeeper gives a reroll. |
+| 4 | 首领生命 +15%，剩四分之一生命时进入第三阶段。回报：打倒守门人多 15 道刻痕。/ Bosses have 15% more HP and gain a third phase at a quarter of their HP. In return: the gatekeeper gives 15 more marks. |
 
 - **怎么开启：**每个角色各自算。用某个角色在某一级赢下一局，这个角色就能选下一级。第 1 级也可以在图鉴的「成就」页用 30 道刻痕直接解锁（所有角色都能选）。
   **Opening it:** each character climbs alone: win a run at a level to open the next one for that character. Level 1 can also be bought for 30 marks in the Codex's Achievements tab (for every character).
